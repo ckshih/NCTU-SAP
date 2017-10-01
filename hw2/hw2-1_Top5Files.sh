@@ -1,4 +1,4 @@
-##### Require #####
+##### Requirement #####
 # Inspect the current directory(“.”) and all sub-directory.
 # Calculate the number of directories.
 # Do not include ‘.’ and ‘..’
