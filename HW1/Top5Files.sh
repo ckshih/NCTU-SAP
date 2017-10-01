@@ -1,0 +1,1 @@
+ls -lARS | awk '{if($5!=""){if($1 ~/^d/) {numOfDir++} else{numOfFile++} print $5, $9} total+=$5} END{print "Dir num:",numOfDir,"\nFile num:",numOfFile"\nTotal:",total}' | sort -nrk 1 | awk '{if(NR <= 5) {print NR":"$1"\t"$2} if($1 ~/^[A-Z]/){print $0}}'
