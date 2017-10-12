@@ -1,0 +1,25 @@
+{
+  "name": "nctu-cs-2017sa-hw2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hw2-server.js",
+  "bin": {
+    "extractFormdata": "./extractFormdata.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "command-line-args": "^4.0.7",
+    "express": "^4.15.4",
+    "request": "^2.82.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wlliou",
+  "license": "ISC",
+  "pkg": {
+    "scripts": "extractFormdata.js"
+  }
+}
